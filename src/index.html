@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>RANIA</title>
+    <title>Custom Vision Plants</title>
     <!-- Favicon -->
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4147/4147953.png" type="image/png">
     <!-- Bootstrap CSS -->
@@ -123,8 +123,8 @@
             }
 
             try {
-                const functionUrl = 'https://testfunc0198.azurewebsites.net/api/decoration?url=' + encodeURIComponent(input.url);
-                const apiKey = 'rania123++'; // Replace with your actual Azure Function key
+                const functionUrl = 'https://planteclass.azurewebsites.net/api/decoration?url=' + encodeURIComponent(input.url);
+                const apiKey = 'yasmine123++'; // Replace with your actual Azure Function key
 
                 const response = await fetch(functionUrl, {
                     method: 'GET', // Adjust the method if your Azure Function expects a different HTTP method
